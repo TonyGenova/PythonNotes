@@ -75,20 +75,20 @@ def f(x):
     return x*x
 ```
 
-possible interesting course series: 
-https://www.coursera.org/specializations/python#about
+possible interesting course series:  
+https://www.coursera.org/specializations/python#about  
 
-Some details on regression in Python: 
-https://medium.com/@dhwajraj/python-regression-analysis-part-4-multiple-linear-regression-ed09a0c31c74
+Some details on regression in Python:  
+https://medium.com/@dhwajraj/python-regression-analysis-part-4-multiple-linear-regression-ed09a0c31c74  
 Decent step by step breakdown and explanantion of results:  
-https://blog.datarobot.com/ordinary-least-squares-in-python
+https://blog.datarobot.com/ordinary-least-squares-in-python  
 usage examples:  
-https://github.com/statsmodels/statsmodels/blob/master/examples/python/ols.py
+https://github.com/statsmodels/statsmodels/blob/master/examples/python/ols.py  
 nice scatterplot creation example:  
-https://lectures.quantecon.org/py/ols.html
+https://lectures.quantecon.org/py/ols.html  
 
 Excellent walkthrough:  
-http://blog.rtwilson.com/regression-in-python-using-r-style-formula-its-easy/
+http://blog.rtwilson.com/regression-in-python-using-r-style-formula-its-easy/  
 
 below notes from the rtwilson notes above and this one:  
 https://www.learndatasci.com/tutorials/predicting-housing-prices-linear-regression-using-python-pandas-statsmodels/
