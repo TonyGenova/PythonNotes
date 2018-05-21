@@ -75,22 +75,22 @@ def f(x):
     return x*x
 ```
 
-possible interesting course series:
+possible interesting course series: 
 https://www.coursera.org/specializations/python#about
 
-Some details on regression in Python:
+Some details on regression in Python: 
 https://medium.com/@dhwajraj/python-regression-analysis-part-4-multiple-linear-regression-ed09a0c31c74
-Decent step by step breakdown and explanantion of results:
+Decent step by step breakdown and explanantion of results:  
 https://blog.datarobot.com/ordinary-least-squares-in-python
-usage examples:
+usage examples:  
 https://github.com/statsmodels/statsmodels/blob/master/examples/python/ols.py
-nice scatterplot creation example:
+nice scatterplot creation example:  
 https://lectures.quantecon.org/py/ols.html
 
-Excellent walkthrough:
+Excellent walkthrough:  
 http://blog.rtwilson.com/regression-in-python-using-r-style-formula-its-easy/
 
-below notes from the rtwilson notes above and this one:
+below notes from the rtwilson notes above and this one:  
 https://www.learndatasci.com/tutorials/predicting-housing-prices-linear-regression-using-python-pandas-statsmodels/
 ``` python
 import pandas as pd
