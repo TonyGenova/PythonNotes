@@ -46,7 +46,6 @@ with open(‘index.csv’, ‘a’) as csv_file:
 ``` python
 #array of urls, can import from a file as well
 quote_page = [‘http://www.bloomberg.com/quote/SPX:IND', ‘http://www.bloomberg.com/quote/CCMP:IND']
-
 # for loop
 data = []
 for pg in quote_page:
@@ -62,4 +61,16 @@ for pg in quote_page:
  price = price_box.text
 # save the data in tuple
  data.append((name, price))
+```
+
+
+Basic Functions - can be in same module or separate imported module
+``` python
+def lastFirst(firstName, lastName):
+    separator = ', '
+    result = lastName + separator + firstName
+    return result
+    
+def f(x):
+    return x*x
 ```
