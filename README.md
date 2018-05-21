@@ -1,16 +1,11 @@
 # Python
 Notes on the Python programming language
 
-To add:
-+ Beautiful soup techniques
-+ array handling
-+ loop handling
-+ write to csv
-+ getting data from webpage
+To add:  
 + file open/file close
 
-Below notes on Beautiful Soup and writing to csv cribbed from this link and modified
-
+### Beautiful Soup, read from web page, writing to csv  
+Below notes on Beautiful Soup and writing to csv cribbed from this link and modified  
 https://medium.freecodecamp.org/how-to-scrape-websites-with-python-and-beautifulsoup-5946935d93fe
 ```python
 # import libraries
@@ -42,7 +37,25 @@ with open(‘index.csv’, ‘a’) as csv_file:
  writer.writerow([name, price, datetime.now()])
 ```
  
- also can modify the above with a loop
+ Alternatively, there may be more than one entry and need to put results into a list (array)
+ ``` python
+Containers = page_soup.findall(“div”,{“class”:”item-container”})
+
+#Then can work with a certain entry, or loop through all
+Container = Containers[0]
+
+#Once have a specific container, run through tags like:
+Container.div.div.a.img
+#Then attributes like:
+Attribute_title = Container.div.div.a.img[“title”]
+
+#To find something by class name:, in this case “item-title”:
+Title_container = container.findAll(“a”, {“class”:”item-title”})
+#Then to get the actual on screen text
+Title_container[0].text
+ ```
+ 
+ also can modify the above with a **__loop__**
 ``` python
 #array of urls, can import from a file as well
 quote_page = [‘http://www.bloomberg.com/quote/SPX:IND', ‘http://www.bloomberg.com/quote/CCMP:IND']
@@ -64,7 +77,8 @@ for pg in quote_page:
 ```
 
 
-Basic Functions - can be in same module or separate imported module
+### Basic Functions  
+can be in same module or separate imported module
 ``` python
 def lastFirst(firstName, lastName):
     separator = ', '
@@ -75,9 +89,29 @@ def f(x):
     return x*x
 ```
 
+### Python array example  
+This isn't really an array, just list of lists  
+This works not as I expect in python when adding new values and referencing values - do more testing  
+See https://snakify.org/en/lessons/two_dimensional_lists_arrays/
+``` python
+#Create a two-dimensional array using lists
+multd = [[1,2], [3,4], [5,6], [7,8]]
+print(multd[0])
+print(multd[3])
+print(multd[2][1])
+print(multd[3][0])
+
+#When we run the above program, the output will be
+[1, 2]
+[7, 8]
+6
+7
+```
+
 possible interesting course series:  
 https://www.coursera.org/specializations/python#about  
 
+### Regression
 Some details on regression in Python:  
 https://medium.com/@dhwajraj/python-regression-analysis-part-4-multiple-linear-regression-ed09a0c31c74  
 Decent step by step breakdown and explanantion of results:  
