@@ -98,6 +98,10 @@ cat_feats = ['purpose']
 final_data = pd.get_dummies(loans,columns=cat_feats,drop_first=True)
 ```
 
+### Support Vector Machines  
+Gridsearch is a method to test an array of settings to find best output:  
+https://github.com/juinc/python_data_science_and_machine_learning_bootcamp/blob/master/Machine%20Learning%20Sections/Support-Vector-Machines/Support%20Vector%20Machines%20with%20Python.ipynb  
+
 
 
 ### Python array example  
