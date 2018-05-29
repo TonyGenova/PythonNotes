@@ -89,6 +89,17 @@ def f(x):
     return x*x
 ```
 
+### This is a good data method, turnig categorics variables into Dummy variables  
+cribbed from: https://github.com/juinc/python_data_science_and_machine_learning_bootcamp/blob/master/Machine%20Learning%20Sections/Decision-Trees-and-Random-Forests/Decision%20Trees%20and%20Random%20Forest%20Project%20-%20Solutions.ipynb  
+"In[36]" is where it starts - have a pandas dataframe "loans" with "purpose" as a categorical variable  
+Creates a "final_data" dataframe with new category flags  
+``` python
+cat_feats = ['purpose']
+final_data = pd.get_dummies(loans,columns=cat_feats,drop_first=True)
+```
+
+
+
 ### Python array example  
 This isn't really an array, just list of lists  
 This works not as I expect in python when adding new values and referencing values - do more testing  
