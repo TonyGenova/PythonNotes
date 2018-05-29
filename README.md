@@ -4,6 +4,13 @@ Notes on the Python programming language
 To add:  
 + file open/file close
 
+### Python for Data Science Class notebooks:  
+https://github.com/luonglearnstocode/python-4-data-science  
+ - Original class: https://www.edx.org/course/python-data-science-uc-san-diegox-dse200x  
+### Python for Machine Learning Bootcamp notebooks:  
+https://github.com/juinc/python_data_science_and_machine_learning_bootcamp  
+ - Original class: https://www.udemy.com/python-for-data-science-and-machine-learning-bootcamp/  
+
 ### Beautiful Soup, read from web page, writing to csv  
 Below notes on Beautiful Soup and writing to csv cribbed from this link and modified  
 https://medium.freecodecamp.org/how-to-scrape-websites-with-python-and-beautifulsoup-5946935d93fe
