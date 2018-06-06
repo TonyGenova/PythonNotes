@@ -18,6 +18,19 @@ Interesting method, uses curly braces to call variables later in line - useful i
 print('My number is: {one}, and my name is: {two}'.format(one=num,two=name))  
 ```  
 
+#### Dictionaries
+Can use for lookups, reference 
+ - items in the dict can be lists that can be called by reference  
+   - interesting possible use for lookups/cross references  
+ ``` python
+d = {'key1':'item1','key2':'item2'}  
+d['key1'] #returns 'item1'  
+  
+d = {'key1':[1,2,3],'key2':'item2'}
+d['key1'][1] #returns 1  
+
+ ```
+
 ### Beautiful Soup, read from web page, writing to csv  
 Below notes on Beautiful Soup and writing to csv cribbed from this link and modified  
 https://medium.freecodecamp.org/how-to-scrape-websites-with-python-and-beautifulsoup-5946935d93fe
