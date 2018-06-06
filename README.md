@@ -190,4 +190,9 @@ housing_model.params #gives x coefficients, intercept
 housing_model.predict({'variable':value, 'variable':'value', .....})
 ```
 
+# Jupyter   
+Shift-Enter: runs that cell  
+Alt-Enter: Inserts a cell below the current cell  
+Navigate to directory you want to start from before starting jupyter notebook   
+
 
