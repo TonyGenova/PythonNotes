@@ -11,10 +11,17 @@ https://github.com/luonglearnstocode/python-4-data-science
 https://github.com/juinc/python_data_science_and_machine_learning_bootcamp  
  - Original class: https://www.udemy.com/python-for-data-science-and-machine-learning-bootcamp/  
 
+
+#### printing to line  
+Interesting method, uses curly braces to call variables later in line - useful if using the same variable more than once, and use temp variables names  
+``` python  
+print('My number is: {one}, and my name is: {two}'.format(one=num,two=name))  
+```  
+
 ### Beautiful Soup, read from web page, writing to csv  
 Below notes on Beautiful Soup and writing to csv cribbed from this link and modified  
 https://medium.freecodecamp.org/how-to-scrape-websites-with-python-and-beautifulsoup-5946935d93fe
-```python
+``` python
 # import libraries
 import urllib2
 import csv
