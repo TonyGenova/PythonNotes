@@ -28,6 +28,10 @@ d['key1'] #returns 'item1'
   
 d = {'key1':[1,2,3],'key2':'item2'}
 d['key1'][1] #returns 1  
+#Interesting uses
+d.keys()
+d.items()
+d.values()
 
  ```
 
@@ -52,6 +56,7 @@ sqnums = list(map(lambda num: num**2,nums))
 ```
  ### Filter Function
  - Allows to quickly filter out certain values
+ - Requires a True/False criteria to test
  ``` python
  seq = [1,2,3,4,5]
  #to return only 2 and 4, ie modulus is 0
