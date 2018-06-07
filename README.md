@@ -31,6 +31,33 @@ d['key1'][1] #returns 1
 
  ```
 
+### Map function  
+Performs a function on a range instead of using a loop  
+``` python
+def square(var):  
+ return var**2  
+nums = [1,2,3,4]
+#to create a new list, where the function has been applied to the whole range of the first list
+sqnums = list(map(square,nums))
+
+```
+
+### Lambda Function
+ - AKA anonymous function
+ - Allows to create a function on the fly
+``` python
+#using same example as map above
+nums = [1,2,3,4]
+sqnums = list(map(lambda num: num**2,nums))
+```
+ ### Filter Function
+ - Allows to quickly filter out certain values
+ ``` python
+ seq = [1,2,3,4,5]
+ #to return only 2 and 4, ie modulus is 0
+ list(filter(lambda item: item%2 == 0,seq))
+ ```
+
 ### Beautiful Soup, read from web page, writing to csv  
 Below notes on Beautiful Soup and writing to csv cribbed from this link and modified  
 https://medium.freecodecamp.org/how-to-scrape-websites-with-python-and-beautifulsoup-5946935d93fe
