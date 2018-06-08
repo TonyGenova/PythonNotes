@@ -157,29 +157,21 @@ cat_feats = ['purpose']
 final_data = pd.get_dummies(loans,columns=cat_feats,drop_first=True)
 ```
 
-### Support Vector Machines  
-Gridsearch is a method to test an array of settings to find best output:  
-https://github.com/juinc/python_data_science_and_machine_learning_bootcamp/blob/master/Machine%20Learning%20Sections/Support-Vector-Machines/Support%20Vector%20Machines%20with%20Python.ipynb  
 
 
 
-### Python array example  
-This isn't really an array, just list of lists  
-This works not as I expect in python when adding new values and referencing values - do more testing  
-See https://snakify.org/en/lessons/two_dimensional_lists_arrays/
+
+### NumPy  
+NumPy arrays work intuitively like spreadsheets. 
+ - There are also plenty ot functions to seed them with values
+   - random numbers, normal distribution, random within a range, a series of evenly spaced numbers
+   - can easily get min/max and/or their locations
+ - note arrays start at [0,0]   
 ``` python
-#Create a two-dimensional array using lists
-multd = [[1,2], [3,4], [5,6], [7,8]]
-print(multd[0])
-print(multd[3])
-print(multd[2][1])
-print(multd[3][0])
-
-#When we run the above program, the output will be
-[1, 2]
-[7, 8]
-6
-7
+# to reference a 2d array, can use two types of reference
+arr[1][2]
+#or
+arr[1,2]
 ```
 
 possible interesting course series:  
