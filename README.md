@@ -177,6 +177,16 @@ arr[1,2]
 possible interesting course series:  
 https://www.coursera.org/specializations/python#about  
 
+### Scikit Learn  
+
+``` python  
+model.fit() #fit training data
+model.predict() #predicts new set of data according to model
+model.predict_proba() # returns a probability of each category for classification
+model.score() # gives a fit between 0 and 1, with a larger score indicating better fit  
+```
+
+
 ### Regression
 Some details on regression in Python:  
 https://medium.com/@dhwajraj/python-regression-analysis-part-4-multiple-linear-regression-ed09a0c31c74  
